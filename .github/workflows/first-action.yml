@@ -2,11 +2,11 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: First Greeting
+      - name: Print greeting
         run: echo "Hello World!"
-      - name: Print Goodbye
-        run: echo " Done- Bye!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
       
   
